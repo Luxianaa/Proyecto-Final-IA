@@ -1,0 +1,9 @@
+
+env/
+knife_dataset++/
+*.h5
+*.keras
+modelo_cnn++.h5
+__pycache__/
+*.pyc
+knife_dataset++.zip
