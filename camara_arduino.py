@@ -4,7 +4,7 @@ import tensorflow as tf
 import serial
 import time
 
-arduino = serial.Serial('COM3', 9600)
+# arduino = serial.Serial('COM3', 9600)
 time.sleep(2)
 
 modelo = tf.keras.models.load_model("modelo_cnn++.h5")
